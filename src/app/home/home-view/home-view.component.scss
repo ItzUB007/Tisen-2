@@ -1,0 +1,82 @@
+.carousel-inner {
+    height: 904px;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.home_slider_logo {
+    width: 300px;
+    height: auto;
+}
+
+
+.gallery_item {
+    margin-top: 20px;
+    width: 600px;
+    height: auto;
+    min-height: 300px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+
+    .test_text {
+        color: white;
+    }
+}
+
+
+
+.services {
+    text-align: center;
+}
+
+.test_image {
+    border-radius: 0;
+}
+
+
+
+///// logos
+/// 
+/// 
+/// 
+/// 
+
+$logo-max-width: 200px;
+$logo-max-height: 100px;
+
+.logogrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax($logo-max-width * 1.25, 1fr));
+    grid-auto-rows: $logo-max-height * 1.25;
+    grid-gap: 4rem;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__img {
+        object-fit:cover;
+        max-width: $logo-max-width;
+        max-height: $logo-max-height;
+        filter: grayscale(100%) contrast(25%);
+        transition: filter .3s ease;
+      
+        &:hover {
+          filter: grayscale(0) contrast(100%);
+        }
+    }
+}
+
+
+.extra{
+    height: auto;
+}
+
+.extra_promo{
+    height: auto;
+}
