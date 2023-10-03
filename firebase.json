@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "Tisen",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

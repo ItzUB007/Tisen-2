@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tisen-web": {
+      "hosting": {
+        "Tisen": [
+          "tisen-web"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tisen-web"
+  }
+}
